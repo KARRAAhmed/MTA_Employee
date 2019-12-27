@@ -1,0 +1,11 @@
+namespace MTA_Employee.DB;
+
+context Organization {
+
+entity employee {
+
+    key empId: String(100);
+    name : String(100);
+  };
+  
+};
